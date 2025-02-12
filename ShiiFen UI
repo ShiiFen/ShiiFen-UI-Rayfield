@@ -43,7 +43,7 @@ local MainWindow = Rayfield:CreateWindow({
    Name = "Red side emote + Infinite Yield",
    Interact = 'Click',
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/ShiiFenSideEmote/refs/heads/main/ShiiFen"))()
+       loadstring(game:HttpGet('https://pastebin.com/raw/qHFSvCKe'))()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
    end,
