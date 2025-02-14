@@ -67,6 +67,14 @@ local MainWindow = Rayfield:CreateWindow({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Long Side by Side",
+   Interact = 'Click',
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/SideBySideLong/refs/heads/main/ShiiFen"))()
+   end,
+})
+
 local Toggle = MainTab:CreateToggle({
    Name = "Get banged (J)",
    CurrentValue = false,
