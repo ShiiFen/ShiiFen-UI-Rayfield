@@ -75,6 +75,14 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Micup Platform",
+   Interact = 'Click',
+   Callback = function()
+      loadstring(game:HttpGet("loadstring(game:HttpGet('https://whimper.xyz/kitty'))()"))()
+   end,
+})
+
 local Toggle = MainTab:CreateToggle({
    Name = "Get banged (J)",
    CurrentValue = false,
