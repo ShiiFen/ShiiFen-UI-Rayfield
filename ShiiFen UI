@@ -99,7 +99,7 @@ local Toggle = MainTab:CreateToggle({
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/nomercy0000/rewind/refs/heads/main/reverse"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/Rewind/refs/heads/main/ShiiFen"))()
    end,
 })
 
@@ -175,4 +175,3 @@ local Toggle = OtherTab:CreateToggle({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/AntiFling/refs/heads/main/ShiiFen"))()
    end,
 })
-
