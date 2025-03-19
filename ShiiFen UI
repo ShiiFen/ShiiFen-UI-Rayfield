@@ -67,18 +67,18 @@ local MainWindow = Rayfield:CreateWindow({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Swim",
-   Interact = 'Click',
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/Swim/refs/heads/main/ShiiFen"))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
    Name = "Long Side by Side",
    Interact = 'Click',
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/SideBySideLong/refs/heads/main/ShiiFen"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Swim",
+   Interact = 'Click',
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/Swim/refs/heads/main/ShiiFen"))()
    end,
 })
 
@@ -90,7 +90,6 @@ local Toggle = MainTab:CreateToggle({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiiFen/ShiiFenGetBangedScriptFinal/refs/heads/main/ShiiFen"))() 
    end,
 })
-
 
 local Toggle = MainTab:CreateToggle({
    Name = "Jerk off (button)",
